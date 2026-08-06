@@ -4,18 +4,12 @@
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>PDF-search</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans+Condensed:wght@600&family=IBM+Plex+Sans:wght@400;500;600&display=swap"
-      rel="stylesheet"
-    />
+    <title>PDF search</title>
     <script>
       // Resolve the theme before first paint, so a dark-mode reload never
       // flashes the light desk. Mirrors src/lib/theme.ts — keep the key in sync.
       (() => {
-        const stored = localStorage.getItem('concordance:theme');
+        const stored = localStorage.getItem('pdf-search:theme');
         const choice = stored === 'light' || stored === 'dark' ? stored : 'system';
         const dark =
           choice === 'dark' ||
@@ -23,8 +17,8 @@
         document.documentElement.dataset.theme = dark ? 'dark' : 'light';
       })();
     </script>
-    <script type="module" crossorigin src="./assets/index-8HEvzzUL.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-DsAJerTX.css">
+    <script type="module" crossorigin src="./assets/index-CSZJYZkM.js"></script>
+    <link rel="stylesheet" crossorigin href="./assets/index-DIaamFRd.css">
   </head>
   <body>
     <div id="root"></div>
