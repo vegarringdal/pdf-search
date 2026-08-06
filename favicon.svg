@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" role="img" aria-labelledby="t">
+  <title id="t">Concordance</title>
+  <rect x="5" y="3" width="22" height="26" rx="1.5" fill="#ffffff" stroke="#16181d" stroke-width="2"/>
+  <rect x="9" y="9" width="14" height="4" fill="#ffd230"/>
+  <path d="M9 17h14M9 22h9" stroke="#545b66" stroke-width="2" stroke-linecap="round"/>
+</svg>
